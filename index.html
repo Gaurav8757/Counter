@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="counter.css" />
+    <title>Up Counter</title>
+  </head>
+  <body class="body_color">
+    <div class="div1">
+      <h1>Enter value from 0 to 9</h1>
+      <div id="inputdata">
+        <input type="text" class="form-control" />
+        <button
+          type="submit"
+          class="submits"
+          id="countdown"
+          onclick="startCounter()"
+        >
+          Start Counter
+        </button>
+      </div>
+    </div>
+    <div class="div2">
+      <div
+        style="background-color: black; height: 100px; width: 100px"
+        class="style"
+      >
+        <p class="current">0</p>
+        <p class="next">1</p>
+      </div>
+    </div>
+    <script src="counter.js"></script>
+  </body>
+</html>
